@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#string for recipes https://api.spoonacular.com/recipes/random?apiKey=6de24f8e027e48e1aab6a959a29444a7&number=7
+#ALLOWING JSON SERVER Set-ExecutionPolicy RemoteSigned
+#REVOKING JSON SERVER Set-ExecutionPolicy Restricted
