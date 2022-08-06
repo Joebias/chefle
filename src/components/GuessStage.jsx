@@ -6,25 +6,24 @@ import { GiAppleCore } from "react-icons/gi";
 function GuessStage({ guess }) {
   if (guess) {
     let values = Object.values(guess);
-
     return (
-      <Guess>
+      <IncorrectGuess>
         <div>
           <GiAppleCore />
         </div>
         <h4>{values[0]}</h4>
-      </Guess>
+      </IncorrectGuess>
     );
   } else {
     return (
-      <Guess>
-        <FaAppleAlt />
-      </Guess>
+      <UnusedGuess>
+        <GiAppleCore />
+      </UnusedGuess>
     );
   }
 }
 
-const Guess = styled.div`
+const UnusedGuess = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +31,7 @@ const Guess = styled.div`
   border-radius: 50%;
   margin-right: 2rem;
   text-decoration: none;
-  background: linear-gradient(35deg, #494949, #313131);
+  background: green;
   width: 6rem;
   height: 6rem;
   cursor: pointer;
@@ -46,15 +45,29 @@ const Guess = styled.div`
     color: white;
     font-size: 1.5rem;
   }
-  &.active {
-    background: linear-gradient(to right, #f27121, #e94057);
+`;
 
-    svg {
-      color: white;
-    }
-    h4 {
-      color: white;
-    }
+const IncorrectGuess = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+  text-decoration: none;
+  background: red;
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+  transform: scale(0.8);
+
+  h4 {
+    color: white;
+    font-size: 0.8rem;
+  }
+  svg {
+    color: white;
+    font-size: 1.5rem;
   }
 `;
 

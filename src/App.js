@@ -25,16 +25,16 @@ function App() {
 }
 
 const Title = styled.div`
-  display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid rgb(136, 136, 136);
-  color: black;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  border-bottom: 5px solid rgb(136, 136, 136);
+  color: white;
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
   text-align: center;
+  font-family: fantasy;
 `;
 
 export default App;
