@@ -13,7 +13,7 @@ const useChefle = (solution) => {
       correct: "false",
     };
 
-    if (currentGuess === solution) {
+    if (currentGuess.toLocaleUpperCase() === solution.toLocaleUpperCase()) {
       setIsCorrect(true);
       formattedGuess.correct = true;
     }

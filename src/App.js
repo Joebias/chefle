@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import Cheffle from "./components/Cheffle";
+import Chefle from "./components/Chefle";
 
 function App() {
   const [solution, setSolution] = useState("");
@@ -18,10 +18,23 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Chefle</h1>
-      {solution && <Cheffle solution={solution} instructions={instructions} />}
+      <Title>CHEFLE</Title>
+      {solution && <Chefle solution={solution} instructions={instructions} />}
     </div>
   );
 }
+
+const Title = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(136, 136, 136);
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+`;
 
 export default App;

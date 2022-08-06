@@ -1,8 +1,20 @@
 {
   "recipes": [
     {
-      "food": "Ice Cream",
+      "food": "Cookies",
       "id": 1,
+      "instructions": [
+        "Preheat oven to 350.",
+        "In a large mixing bowl, combine all ingredients (except chocolate) and mix well.",
+        "Add in chocolate and continue to mix well.",
+        "Using a teaspoon, scoop and place on an un-greased ______ sheet about 2 inches apart.",
+        "Bake for 10-12 minutes, pulling them from the oven when edges begin to brown.",
+        "Allow to cool slightly, and then serve immediately."
+      ]
+    },
+    {
+      "food": "Ice Cream",
+      "id": 7,
       "instructions": [
         "In a large pot mix the milk, sugar and powdered milk. Bring the mix to a low simmer over medium heat and stir to dissolve the sugar, then turn the heat down and just keep it warm.",
         "Put the egg yolks in a medium bowl and whisk for 2 minutes until they are thickened. While constantly whisking, slowly add 1 cup of the hot milk mixture and whisk until it is blended",

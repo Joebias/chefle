@@ -6,7 +6,6 @@ import { GiAppleCore } from "react-icons/gi";
 function GuessStage({ guess }) {
   if (guess) {
     let values = Object.values(guess);
-    console.log(values[1]);
 
     return (
       <Guess>
