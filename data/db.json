@@ -1,149 +1,19 @@
 {
-  "recipes": [
+  "posts": [
     {
-      "food": "Cookies",
       "id": 1,
-      "instructions": [
-        "Preheat oven to 350.",
-        "In a large mixing bowl, combine all ingredients (except chocolate) and mix well.",
-        "Add in chocolate and continue to mix well.",
-        "Using a teaspoon, scoop and place on an un-greased ______ sheet about 2 inches apart.",
-        "Bake for 10-12 minutes, pulling them from the oven when edges begin to brown.",
-        "Allow to cool slightly, and then serve immediately."
-      ]
-    },
-    {
-      "food": "Ice Cream",
-      "id": 7,
-      "instructions": [
-        "In a large pot mix the milk, sugar and powdered milk. Bring the mix to a low simmer over medium heat and stir to dissolve the sugar, then turn the heat down and just keep it warm.",
-        "Put the egg yolks in a medium bowl and whisk for 2 minutes until they are thickened. While constantly whisking, slowly add 1 cup of the hot milk mixture and whisk until it is blended",
-        "Then pour the egg mixture back into the pot of hot milk and increase heat to medium. Stir the mixture constantly with a wooden or plastic spoon, until the mixture is thickened (like gravy).",
-        "Stir in whipping cream and vanilla. Cover and put into the refrigerator for at least 6 hours (or overnight) before making the ice cream in the ice cream maker.",
-        "Blend fruit in a food processor or blender to a puree consistency. Stir the pureed fruit into the milk and egg mixture and mix thoroughly.",
-        "Pour the mixture into an ice cream machine and churn until frozen, 15-20 minutes, according to the manufacturers instructions. Transfer to plastic container and place in the freezer for an hour before serving."
-      ]
-    },
-    {
-      "food": "Thai Shrimp",
-      "id": 2,
-      "instructions": [
-        "Peel and devein shrimp",
-        "Wash, dry and steam basil, mince garlic, thinly slice seeded chilies, mince white part of onion and cut green part into 1 inch pieces",
-        "Recipe can be prepared ahead to this stage.",
-        "Heat wok over high heat",
-        "Swirl oil into wok and heat almost to smoking",
-        "Add garlic, chilies, onions (white part), and cook 10-15 seconds; add shrimp and stir fry 20 seconds or until they change color",
-        "Add fish sauce, soy sauce, sugar, chicken, stock and green part of onions and bring mixture to a boil",
-        "Stir in basil and cook 20 seconds or until leaves wilt and shrimp are firm and pink",
-        "Dish is supposed to be soupy",
-        "Serve over hot cooked rice."
-      ]
-    },
-    {
-      "food": "French Onion Soup",
-      "id": 3,
-      "instructions": [
-        "Preheat oven to 400",
-        "In a large Dutch oven, melt butter over medium heat.",
-        "Add onions to the pot and sprinkle with flour",
-        "Reduce heat to medium low and cook for 45 minutes stirring occasionally",
-        "If the onions are cooking too quickly, reduce heat.",
-        "When the onions are tender and golden in colour, de-glaze the pan with sherry.",
-        "Pour beef broth into the pot and bring to a boil over medium heat",
-        "Add herbs, salt and pepper to taste.",
-        "Reduce heat and simmer for 15 minutes.",
-        "Spray a cookie sheet with cooking spray",
-        "Butter slices of French bread and bake in the oven for 5-10 minutes until very dry",
-        "Set aside.",
-        "Remove herb stalks and bay leaf.",
-        "Ladle soup portions into four oven safe ramekins",
-        "Top with crusty French bread and sprinkle with cheese",
-        "Place ramekins on a cookie sheet and bake uncovered at 400 for 5-10 minutes until cheese is bubbling",
-        "Broil for one minute more to brown the top.",
-        "Serve warm.",
-        "Serves 4"
-      ]
-    },
-    {
-      "food": "Cheesecake",
-      "id": 4,
-      "instructions": [
-        "In a medium saucepan, bring cranberries and water to a boil",
-        " Boil until the skin of the berries pops open, about 5 minutes.",
-        "Remove from heat and add allspice, cloves, orange extract, and sugar",
-        "Mix until thoroughly combined",
-        "Cool in refrigerator.",
-        "For the crust, combine digestive cookies crumbs, sugar, and butter in a small bowl",
-        "Press into the bottom of a greased 9-inch spring form pan; set aside.",
-        "In a mixing bowl, beat the cream cheese and sugar until smooth.",
-        "Add sour cream and cornstarch, beating well.",
-        "Add eggs, and beat on low speed just until combined.",
-        "Drain the cranberry sauce, reserve the cranberries",
-        "Fold one cup of cranberry sauce into the mixture",
-        "Pour into crust, sprinkle with the remaining sauce.",
-        "Bake the cake at 160C for 30-35 minutes or until the center is almost set",
-        "Cool on a wire rack for 10 minutes",
-        "Carefully run a knife around the edge of the pan to loosen; cool one hour longer",
-        "Refrigerate overnight.",
-        "Before serving, if you wish, top the cake with cranberries from the sauce."
-      ]
-    },
-    {
-      "food": "Shortbread",
-      "id": 5,
-      "instructions": [
-        "Cream the butter for about 5 minutes until fluffy.",
-        "Add powdered sugar, continue beating until the mixture is shiny and smooth.",
-        "Add the yolks and lemon juice and whisk until fully incorporated.",
-        "Mix flour and almonds and gradually add to the butter mixture",
-        "Mix until the doug has consistency of a thick paste",
-        "Do not overmix (too much mixing makes the cookies hard).",
-        "Add dried cranberries by kneading by hand.",
-        "Divide the dough into two equal parts, shape each part into a 20-22 cm long roll.",
-        "Roll each of the rolls in chopped almonds and/ or pistachios sprinkled over two aluminum sheets long enough to wrap the roll of dough",
-        "With fingers lightly press the roll towards the center to remove any air bubbles or cracks from the dough.",
-        "Wrap each roll in foil, twist the ends and place in the refrigerator for several hours, preferably overnight.",
-        "Remove foil from a roll of dough (keep the other cool until use) and place on a cutting board",
-        "With a large, sharp knife cut the roll  into 5-6 mm wide slices.",
-        "Place the slices well apart, on a baking sheet covered with parchment paper",
-        "Bake the cookies in the oven preheated to 180C for about 12 min (be careful not to burn them)",
-        "Let them cool on the sheet for about 5 minutes, then transfer to a rack or a plate to cool fully"
-      ]
-    },
-    {
-      "food": "Chicken Cordon Bleu",
-      "id": 6,
-      "instructions": [
-        "Preheat oven to 350 degrees F.",
-        "Butterfly the chicken breasts by slicing half lengthwise but not cutting all the way through",
-        "Lay the halved breasts between 2 pieces of plastic wrap",
-        "Using the flat side of a meat mallet, gently pound the chicken to 1/4-inch thickness, taking care to not tear or create holes in the meat.",
-        "Lay 2 slices of cheese on each breast, followed by 2 slices of ham, and 2 more of cheese; leaving a 1/2-inch margin on all sides to help seal the roll",
-        "Tuck in the sides of the breast and roll up tight like a jellyroll",
-        "Squeeze the log gently to seal.",
-        "Season the flour with salt and pepper; spread out on waxed paper or in a flat dish",
-        "Mix the breadcrumbs with thyme, kosher salt, pepper, and oil",
-        "The oil will help the crust brown",
-        "Beat together the eggs and water, the mixture should be fluid",
-        "Lightly dust the chicken with flour, then dip in the egg mixture",
-        "Gently coat in the bread crumbs.",
-        "Carefully transfer the roulades to a baking pan and bake for 20 minutes until browned and cooked through.",
-        "Serve whole or cut into pinwheels."
-      ]
-    },
-    {
-      "food": "Stew",
-      "id": 6,
-      "instructions": [
-        "Scrape, wash and boil your carrots till soft.",
-        "Place in a blender without water and grind till completely shredded.",
-        "In a pot, heat up your oil and fry your onions, garlic and ginger",
-        "Pour in your Tatashe-pepper mix and your beef and allow to simmer on low heat for about 10-15 minutes",
-        "Season with curry, seasoning cubes and anything else you may wish to add.",
-        "Pour in your carrots and stir in and allow to simmer on low heat for another 3-5 minutes.",
-        "Add your chopped scent leaves and stir in and serve hot with rice, yam, plantain, pasta or any other accompaniment of your choice"
-      ]
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
