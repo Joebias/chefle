@@ -17,7 +17,7 @@ function GuessStage({ guess }) {
   } else {
     return (
       <UnusedGuess>
-        <GiAppleCore />
+        <FaAppleAlt />
       </UnusedGuess>
     );
   }
