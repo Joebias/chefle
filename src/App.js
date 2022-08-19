@@ -4,11 +4,12 @@ import Chefle from "./components/Chefle";
 import recipes from "./db.json";
 
 function App() {
+  const today = new Date();
   const [solution, setSolution] = useState("");
   const [instructions, setInstructions] = useState([]);
 
   useEffect(() => {
-    const todaysRecipe = recipes.recipes[0];
+    const todaysRecipe = recipes.recipes[today.getDay()];
     setSolution(todaysRecipe.food);
     setInstructions(todaysRecipe.instructions);
   }, [setSolution]);
