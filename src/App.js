@@ -16,8 +16,11 @@ function App() {
 
   return (
     <div className="App">
-      <Title>CHEFLE</Title>
-      {solution && <Chefle solution={solution} instructions={instructions} />}
+      <Main>
+        {" "}
+        <Title>CHEFLE</Title>
+        {solution && <Chefle solution={solution} instructions={instructions} />}
+      </Main>
     </div>
   );
 }
@@ -33,6 +36,11 @@ const Title = styled.div`
   margin: 0px;
   text-align: center;
   font-family: fantasy;
+`;
+
+const Main = styled.div`
+  max-width: 100%;
+  overflow-x: hidden;
 `;
 
 export default App;

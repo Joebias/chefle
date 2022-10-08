@@ -11,7 +11,7 @@ function GuessStage({ guess }) {
         <div>
           <GiAppleCore />
         </div>
-        <h4>{values[0]}</h4>
+        <h4 id="guessvalue">{values[0]}</h4>
       </IncorrectGuess>
     );
   } else {
@@ -28,12 +28,11 @@ const UnusedGuess = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 0%;
   margin-right: 2rem;
   text-decoration: none;
-  background: green;
-  width: 6rem;
-  height: 6rem;
+  width: 20%;
+  height: 20%;
   cursor: pointer;
   transform: scale(0.8);
 
@@ -44,6 +43,8 @@ const UnusedGuess = styled.div`
   svg {
     color: white;
     font-size: 1.5rem;
+
+    fill: green;
   }
 `;
 
@@ -55,12 +56,10 @@ const IncorrectGuess = styled.div`
   border-radius: 50%;
   margin-right: 2rem;
   text-decoration: none;
-  background: red;
-  width: 6rem;
-  height: 6rem;
+  width: 20%;
+  height: 20%;
   cursor: pointer;
   transform: scale(0.8);
-
   h4 {
     color: white;
     font-size: 0.8rem;
@@ -68,6 +67,12 @@ const IncorrectGuess = styled.div`
   svg {
     color: white;
     font-size: 1.5rem;
+    fill: red;
+  }
+  @media only screen and (max-width: 1026px) {
+    #guessvalue {
+      display: none;
+    }
   }
 `;
 

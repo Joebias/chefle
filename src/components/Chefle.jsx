@@ -37,22 +37,24 @@ function Chefle({ solution, instructions }) {
 
   return (
     <>
-      <Grid
-        currentGuess={currentGuess}
-        guesses={guesses}
-        turn={turn}
-        solution={solution}
-      />
+      {" "}
       <Card>{renderList}</Card>
       <Guess>
-        <input
-          name="guess"
-          type="text"
-          value={currentGuess}
-          placeholder="Type Guess Here"
+        <Grid
+          currentGuess={currentGuess}
+          guesses={guesses}
+          turn={turn}
+          solution={solution}
         />
+        <GuessInput>
+          <input
+            name="guess"
+            type="text"
+            value={currentGuess}
+            placeholder="Type Guess Here"
+          />
+        </GuessInput>
       </Guess>
-
       {showModal && (
         <Modal isCorrect={isCorrect} turn={turn} solution={solution} />
       )}
@@ -61,11 +63,17 @@ function Chefle({ solution, instructions }) {
 }
 
 const Card = styled.div`
-  min-height: 25rem;
   border-radius: 2rem;
   overflow: hidden;
   position: relative;
-  align-items: initial;
+  padding-top: 2%;
+  height: 100%;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  bottom: 1%;
+  width: 100%;
+  height: 80%;
   div {
     position: relative;
     left: 50%;
@@ -85,11 +93,12 @@ const Guess = styled.div`
   border-radius: 2rem;
   overflow: hidden;
   position: absolute;
-  display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 5%;
+  bottom: 1%;
   width: 100%;
+  height: 15%;
+
   input {
     background: linear-gradient(35deg, #494949, #313131);
     text-align: center;
@@ -99,7 +108,16 @@ const Guess = styled.div`
     border: none;
     border-radius: 1rem;
     outline: none;
+    display: block;
+    margin: 0 auto;
   }
+`;
+
+const GuessInput = styled.div`
+  padding: 1%;
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
 `;
 
 export default Chefle;

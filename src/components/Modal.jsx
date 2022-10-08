@@ -9,7 +9,6 @@ function Modal({ isCorrect, turn, solution }) {
           <h1>You Win!</h1>
           <Solution>{solution}</Solution>
           <p>You guessed the recipe in {turn} guesses.</p>
-          <div>Recipe</div>
         </GameInfo>
       )}
       {!isCorrect && (
@@ -17,7 +16,6 @@ function Modal({ isCorrect, turn, solution }) {
           <h1>Unlucky!</h1>
           <Solution>{solution}</Solution>
           <p>Better luck next time.</p>
-          <div>Recipe</div>
         </GameInfo>
       )}
     </ModalWindow>
